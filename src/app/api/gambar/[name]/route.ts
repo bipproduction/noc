@@ -6,7 +6,6 @@ import { NextRequest, NextResponse } from 'next/server'
 export function GET(req: Request, { params }: any) {
     const data = fs.readdirSync('./src/assets/hasil')
 
-
     try {
 
         // Read the image file
