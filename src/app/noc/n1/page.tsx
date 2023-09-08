@@ -37,7 +37,7 @@ export default function Noc1Page() {
     const interval = useInterval(() => {
         loadData()
         setKeynya(Math.random().toString())
-    }, 8000)
+    }, 800000)
 
 
     useShallowEffect(() => {
