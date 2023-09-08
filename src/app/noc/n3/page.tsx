@@ -3,6 +3,7 @@ import { Box } from '@mantine/core'
 import fs from 'fs'
 
 
+
 export default async function Noc1Page() {
     const list = fs.readdirSync('./src/assets/hasil')
     const listSumber = fs.readdirSync('./src/assets/sumber')

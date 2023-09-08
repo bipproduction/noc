@@ -34,11 +34,13 @@
     "eslint-config-next": "13.4.9",
     "face-api.js": "^0.22.2",
     "fetch": "^1.1.0",
+    "iron-session": "^6.3.1",
     "next": "13.4.9",
     "node-fetch2": "^1.6.3",
     "postcss": "8.4.25",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-simple-toasts": "^5.8.3",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
   }
