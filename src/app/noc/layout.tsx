@@ -10,8 +10,8 @@ export default async function NocLayout({
     children: React.ReactNode
 }) {
 
-    const c = cookies().get('noc_tkn')
-    if (!c || !c.value || _.isEmpty(c.value)) return <ViewLogin />
+    // const c = cookies().get('noc_tkn')
+    // if (!c || !c.value || _.isEmpty(c.value)) return <ViewLogin />
 
     return <>
         {children}
